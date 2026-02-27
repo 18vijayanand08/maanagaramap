@@ -2,6 +2,9 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 
+// ⭐ ADD THIS LINE
+import "./services/presenceBot.js";
+
 import staffRoutes from "./routes/staffRoutes.js";
 
 dotenv.config();
